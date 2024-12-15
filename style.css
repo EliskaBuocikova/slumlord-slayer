@@ -64,15 +64,7 @@ h3 {
   color: #575656;
 }
 
-.sejmuti {
-  font-family: "Exo 2", sans-serif;
-  font-size: 1.7em;
-  font-weight: 750;
-  margin-top: 0;
-  background-color: red;
-  color: white;
-}
-
+.sejmuti,
 .sejmuti-hlaska {
   font-family: "Exo 2", sans-serif;
   font-size: 1.2em;

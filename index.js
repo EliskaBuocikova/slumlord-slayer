@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
     hasicak: `
       <h2>Chybějící hasicí přístroje</h2>
       <h3>❗HZS (hasičský záchranný sbor) ukládá pokutu❗</h3>
-      <span class="sejmuti">Sejmi slumlorda!</span>
       <p><strong>Propadlé revize u hasicích přístrojů, jejich absence, zamčené únikové východy</strong></p>
 
       <p style="padding-left: 1.5em">
@@ -18,24 +17,24 @@ document.addEventListener('DOMContentLoaded', () => {
       <p style="padding-left: 1.5em">
       Za neplnění základních povinností fyzických osob vyplývajících z předpisů o požární ochraně může HZS uložit fyzickým osobám za spáchaný přestupek pokutu až do výše <strong>25&nbsp;000&nbsp;Kč</strong>. Pokuty pro právnické osoby jsou řádově vyšší.
       </p>
-
+      
+      <p>Klikni na křížek a <span class="sejmuti">Sejmi slumlorda!</span></p>
       <span class="sejmuti-hlaska">Slumlord dostane plnou palbu ve výši <strong>25&nbsp;000&nbsp;Kč. 💸</strong></span>
     `,
     okno: `
       <h2>Chybějící okno</h2>
       <h3>❗ÚP zastaví dávky❗</h3>
-      <span class="sejmuti">Sejmi slumlorda!</span>
       <p>Zákon č. 111/2006 Sb. O pomoci v hmotné nouzi</p>
       <p>§ 33a</p>
       <p>Byt, jiný než obytný prostor a ubytovací zařízení</p>
       <p><strong>(1)</strong> Bytem se pro účely tohoto zákona rozumí soubor místností nebo samostatná obytná místnost, které svým stavebně technickým uspořádáním a vybavením splňují požadavky na trvalé bydlení a jsou k tomuto účelu užívání určeny podle stavebního zákona nebo jsou zkolaudovány jako byt.</p>
-
+      
+      <p>Klikni na křížek a <span class="sejmuti">Sejmi slumlorda!</span></p>
       <span class="sejmuti-hlaska">Slumlord bude chudší o <strong>20&nbsp;000&nbsp;Kč</strong> měsíčně za ušlý nájem. 💸</span>
     `,
     mysi: `
       <h2>Krysy/štěnice</h2>
       <h3>❗Krajská hygienická stanice nařídí DDD❗</h3>
-      <span class="sejmuti">Sejmi slumlorda!</span>
       <p>Zákon o ochraně veřejného zdraví č. 258/2000 Sb.</p>
       <p>§ 88</p>
       <p>KHS má v kompetenci</p>
@@ -43,12 +42,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
       <p>Pokud hrozí šíření nákazy, zvýšený výskyt přenašečů infekčních onemocnění a škodlivých nebo epidemiologicky významných členovců, hlodavců a dalších živočichů a ke zjištění ohniska nákazy, k nařízení, provedení a kontrole protiepidemických opatření <strong>mohou zaměstnanci orgánu ochrany veřejného zdraví v mimořádných případech hodných zvláštního zřetele vstupovat do obydlí fyzických osob</strong>.</p>
 
+      <p>Klikni na křížek a <span class="sejmuti">Sejmi slumlorda!</span></p>
       <span class="sejmuti-hlaska">Protože má slumlord zamořený celý dům, bude ho to stát <strong>25&nbsp;000&nbsp;Kč</strong>. 💸</span>
     `,
     neporadek: `
       <h2>Nepořádek na pozemku</h2>
       <h3>❗Přestupek za narušení vzhledu obce -> obecní úřad❗</h3>
-      <span class="sejmuti">Sejmi slumlorda!</span>
       <p>Zákon  o  obcích (č. 128/2000 Sb.)</p>
       <p>§ 66d</p>
 
@@ -67,6 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       <p><strong>(5)</strong> Přestupky podle odstavců 1 až 3 projednává <strong>obecní úřad</strong>.</p>
 
+      <p>Klikni na křížek a <span class="sejmuti">Sejmi slumlorda!</span></p>
       <span class="sejmuti-hlaska">Slumlord dostane pokutu ve výši <strong>20&nbsp;000&nbsp;Kč. 💸</strong></span>
     `,
     balkon1: `
@@ -142,7 +142,6 @@ document.addEventListener('DOMContentLoaded', () => {
     balkon2: `
       <h2>Padající střešní krytina, zdivo, balkóny</h2>
       <h3>❗majitel brání provedení kontroly -> stavební úřad❗</h3>
-      <span class="sejmuti">Sejmi slumlorda!</span>
       <p>
         Stavebí úřad může rozhodnutím uložit pořádkovou pokutu do
         <strong>50&nbsp;000&nbsp;Kč</strong>
@@ -157,19 +156,20 @@ document.addEventListener('DOMContentLoaded', () => {
         b) na výzvu stavebního úřadu se nezúčastní kontrolní prohlídky, ač je k
         tomu podle tohoto zákona povinen.
       </p>
-     <span class="sejmuti-hlaska">Slumlord dostane pořádkovou pokutu ve výši <strong>50&nbsp;000&nbsp;Kč. 💸</strong></span>
+      <p>Klikni na křížek a <span class="sejmuti">Sejmi slumlorda!</span></p>
+      <span class="sejmuti-hlaska">Slumlord dostane pořádkovou pokutu ve výši <strong>50&nbsp;000&nbsp;Kč. 💸</strong></span>
     `,
     balkon3: `
       <h2>Padající střešní krytina, zdivo, balkóny</h2>
       <h3>❗majitel neprovedl zabezpečovací práce -> stavební úřad❗</h3>
-      <span class="sejmuti">Sejmi slumlorda!</span>
       <p>§ 301</p>
       <p>
         Pokud stavebník (majitel) neprovede nařízené nutné zabezpečovací práce
         nebo je provede v rozporu s rozhodnutím, hrozí mu pokuta až do
         <strong>1&nbsp;000&nbsp;000&nbsp;Kč.</strong>
       </p>
-       <span class="sejmuti-hlaska">Slumlord dostane pokutu ve výši <strong>200&nbsp;000&nbsp;Kč. 💸</strong></span>
+      <p>Klikni na křížek a <span class="sejmuti">Sejmi slumlorda!</span></p>
+      <span class="sejmuti-hlaska">Slumlord dostane pokutu ve výši <strong>200&nbsp;000&nbsp;Kč. 💸</strong></span>
     `,
     balkon4: `
       <h2>Padající střešní krytina, zdivo, balkóny</h2>
@@ -177,14 +177,15 @@ document.addEventListener('DOMContentLoaded', () => {
         ❗obec na své náklady provede zabezpečovací práce a po vlastníkovi je
         vymáhá❗
       </h3>
-      <span class="sejmuti">Sejmi slumlorda!</span>
       <p>§ 296</p>
       <p>Provedení opatření k nápravě</p>
       <p>
         <strong>(1)</strong> Hrozí-li u provedení opatření k nápravě podle § 295 odst. 1 písm. c), d) nebo e) nebezpečí z prodlení, zajistí provedení nařízeného opatření k nápravě stavební úřad prostřednictvím osoby, která je podle jiného právního předpisu oprávněna k provedení nařízených prací; při stanovení této osoby se zákon o zadávání veřejných zakázek nepoužije. Této osobě může stavební úřad provedení opatření k nápravě nařídit rozhodnutím, které může být vydáno jako první úkon stavebního úřadu v řízení.
         </p>
        <p> <strong>(2)</strong> Náklady na provedení opatření k nápravě je povinen uhradit vlastník stavby nebo pozemku, na němž se záměr nachází. Nedošlo-li mezi osobou, prostřednictvím které stavební úřad zajišťuje provedení nařízeného opatření k nápravě, a vlastníkem k dohodě o zaplacení, stavební úřad uhradí náklady na provedení opatření k nápravě a rozhodnutím uloží vlastníkovi povinnost náklady uhradit stavebnímu úřadu.</p>
-        <span class="sejmuti-hlaska">Slumlorda to tentokrát stálo <strong>1&nbsp;500&nbsp;000&nbsp;Kč. 💸</strong></span>
+
+       <p>Klikni na křížek a <span class="sejmuti">Sejmi slumlorda!</span></p>
+      <span class="sejmuti-hlaska">Slumlorda to tentokrát stálo <strong>1&nbsp;500&nbsp;000&nbsp;Kč. 💸</strong></span>
     `,
   };
 
