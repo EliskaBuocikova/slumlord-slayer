@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sejmi slumlorda</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Monoton&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="infoBox" class="info-box">
+      <div class="info-content">
+        <p class="uvodni-text">
+          Ve městě se usídlil obchodník s chudobou, který poskytuje zoufalým
+          domácnostem drahý život v bídě. Skrze průtokový dům do města proudí
+          další a další sociálně vyloučení, na něž nejsou připraveny školy, síť
+          služeb atd. Naštěstí obec spolupracuje s ASZ a postupuje dle metodiky
+          <em>„Průvodce řešením problematických objektů“.</em> Díky
+          koordinovaném nátlaku orgánů veřejné správy se snad podaří tento
+          podnikatelský záměr zhatit.
+        </p>
+        <p class="uvodni-text">
+          Kliknutím na jednotlivé nedostatky domu se Ti zobrazí informace k
+          řešení daného nedostatku. Přečti si ji, ať jsi zase o kousek
+          chytřejší! 🤌 Pokud je součástí textového pole hláška "Sejmi
+          slumlorda", znamená to, že v momentě, kdy textové pole křížkem zavřeš,
+          slumlorda sejmeš - připravíš ho o slušný balík peněz. 💸 Hra končí ve
+          chvíli, kdy nemůžeš kliknout na žádný nedostatek na domě a slumlord
+          roní slzy!
+        </p>
+        <button id="startButton" class="start-button">Začít</button>
+      </div>
+    </div>
+
+    <h1>Sejmi slumlorda!</h1>
+
+    <div class="images-container">
+      <div class="slumlord-with-score-container">
+        <!-- <p class="to-je-on">To je on:</p> -->
+        <img
+          class="slumlord"
+          src="slumlord-1.png"
+          width="600px"
+          height="auto"
+        />
+        <div class="penezenka-container">
+          <img
+            class="penezenka"
+            src="penezenka.png"
+            width="250px"
+            height="auto"
+          />
+          <div class="penezenka-status" id="status-box">
+            Slumlordova peněženka
+          </div>
+        </div>
+      </div>
+
+      <div class="domecek-container">
+        <img class="domecek" src="house.png" />
+
+        <img id="balkon" class="balkon" src="balkon.png" />
+
+        <img id="hasicak" class="hasicak" src="hasicak.png" />
+
+        <img id="okno" class="okno" src="okno.png" />
+
+        <img id="mysi" class="mysi" src="mysi-a-stenice.png" />
+
+        <img id="neporadek" class="neporadek" src="neporadek.png" />
+      </div>
+    </div>
+    <!-- textová pole pro hasicak: -->
+    <div class="text-field" id="textFieldHasicak">
+      <span class="close-button">&times;</span>
+      <div id="textHasicak"></div>
+    </div>
+    <!-- ------------------- -->
+
+    <!-- textová pole pro balkón: -->
+    <!-- 1. textové pole pro balkón: -->
+    <div class="text-field" id="textFieldBalkon1">
+      <span class="close-button">&times;</span>
+      <div id="textBalkon1"></div>
+    </div>
+    <!-- 2. textové pole pro balkón: -->
+    <div class="text-field" id="textFieldBalkon2">
+      <span class="close-button">&times;</span>
+      <div id="textBalkon2"></div>
+    </div>
+    <!-- 3. textové pole pro balkón: -->
+    <div class="text-field" id="textFieldBalkon3">
+      <span class="close-button">&times;</span>
+      <div id="textBalkon3"></div>
+    </div>
+    <!-- 4. textové pole pro balkón: -->
+    <div class="text-field" id="textFieldBalkon4">
+      <span class="close-button">&times;</span>
+      <div id="textBalkon4"></div>
+    </div>
+    <!-- ------------------- -->
+
+    <!-- textová pole pro okno: -->
+    <div class="text-field" id="textFieldOkno">
+      <span class="close-button">&times;</span>
+      <div id="textOkno"></div>
+    </div>
+    <!-- ------------------- -->
+
+    <!-- textová pole pro myši: -->
+    <div class="text-field" id="textFieldMysi">
+      <span class="close-button">&times;</span>
+      <div id="textMysi"></div>
+    </div>
+    <!-- ------------------- -->
+
+    <!-- textová pole pro nepořádek: -->
+    <div class="text-field" id="textFieldNeporadek">
+      <span class="close-button">&times;</span>
+      <div id="textNeporadek"></div>
+    </div>
+    <!-- ------------------- -->
+
+    <script src="index.js"></script>
+  </body>
+</html>
