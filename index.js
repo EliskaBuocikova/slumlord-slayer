@@ -24,10 +24,10 @@ document.addEventListener('DOMContentLoaded', () => {
     okno: `
       <h2>Chybějící okno</h2>
       <h3>❗ÚP zastaví dávky❗</h3>
-      <p>Zákon č. 111/2006 Sb. O pomoci v hmotné nouzi</p>
+      <p><strong>Zákon č. 111/2006 Sb. O pomoci v hmotné nouzi</strong></p>
       <p>§ 33a</p>
-      <p>Byt, jiný než obytný prostor a ubytovací zařízení</p>
-      <p><strong>(1)</strong> Bytem se pro účely tohoto zákona rozumí soubor místností nebo samostatná obytná místnost, které svým stavebně technickým uspořádáním a vybavením splňují požadavky na trvalé bydlení a jsou k tomuto účelu užívání určeny podle stavebního zákona nebo jsou zkolaudovány jako byt.</p>
+      <p><strong>Byt, jiný než obytný prostor a ubytovací zařízení</strong></p>
+      <p><strong>(1)</strong> Bytem se pro účely tohoto zákona rozumí soubor místností nebo samostatná obytná místnost, <strong>které svým stavebně technickým uspořádáním a vybavením splňují požadavky na trvalé bydlení</strong> a jsou k tomuto účelu užívání určeny podle stavebního zákona nebo jsou zkolaudovány jako byt.</p>
       
       <p>Klikni na křížek a <span class="sejmuti">Sejmi slumlorda!</span></p>
       <span class="sejmuti-hlaska">Slumlord bude chudší o <strong>20&nbsp;000&nbsp;Kč</strong> měsíčně za ušlý nájem. 💸</span>
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     mysi: `
       <h2>Krysy/štěnice</h2>
       <h3>❗Krajská hygienická stanice nařídí DDD❗</h3>
-      <p>Zákon o ochraně veřejného zdraví č. 258/2000 Sb.</p>
+      <p><strong>Zákon o ochraně veřejného zdraví č. 258/2000 Sb. </strong></p>
       <p>§ 88</p>
       <p>KHS má v kompetenci</p>
       <p><strong>l)</strong> rozhodovat o opatřeních k předcházení vzniku a šíření infekčních onemocnění a jejich ukončení; organizovat, řídit a popřípadě i provádět opatření k předcházení vzniku a zamezení šíření infekčních onemocnění a v tomto rozsahu též usměrňovat činnost poskytovatelů zdravotních služeb a kontrolovat. </p>
@@ -48,19 +48,19 @@ document.addEventListener('DOMContentLoaded', () => {
     neporadek: `
       <h2>Nepořádek na pozemku</h2>
       <h3>❗Přestupek za narušení vzhledu obce -> obecní úřad❗</h3>
-      <p>Zákon  o  obcích (č. 128/2000 Sb.)</p>
+      <p><strong>Zákon  o  obcích (č. 128/2000 Sb.)</strong></p>
       <p>§ 66d</p>
 
-      <p><strong>(1)</strong> Fyzická osoba se dopustí přestupku tím, že</p>
+      <p><strong>(1)</strong> Fyzická osoba se dopustí <strong>přestupku</strong> tím, že</p>
 
       <p style="padding-left: 1.5em">
       <strong>a)</strong> úmyslně poškodí, odstraní nebo zakryje tabulku s označením ulice nebo jiného veřejného prostranství,</p>
 
       <p style="padding-left: 1.5em">
-      <strong>b)</strong> neudržuje čistotu a pořádek na pozemku, který užívá nebo vlastní, a tím naruší vzhled obce, nebo</p>
+      <strong>b) neudržuje čistotu a pořádek na pozemku, který užívá nebo vlastní, a tím naruší vzhled obce, nebo</p></strong> 
 
       <p style="padding-left: 1.5em">
-      <strong>c)</strong> naruší životní prostředí v obci nebo odloží věc mimo vyhrazené místo.</p>
+      <strong>c) naruší životní prostředí v obci nebo odloží věc mimo vyhrazené místo.</p></strong> 
 
       <p><strong>(4)</strong> Za přestupek podle odstavce 1 písm. b) nebo c) nebo odstavce 2 písm. b) nebo c) lze uložit pokutu do <strong>500&nbsp;000&nbsp;Kč</strong> a za přestupek podle odstavce 1 písm. a), odstavce 2 písm. a) nebo odstavce 3 pokutu do <strong>200&nbsp;000&nbsp;Kč</strong>.</p>
 
@@ -72,9 +72,9 @@ document.addEventListener('DOMContentLoaded', () => {
     balkon1: `
       <h2>Padající střešní krytina, zdivo, balkóny</h2>
       <h3>❗stavební úřad: nařízení zabezpečovacích prací❗</h3>
-      <p>Zákon č. 283/2021 Sb. Stavební zákon</p>
+      <p><strong>Zákon č. 283/2021 Sb. Stavební zákon</strong></p>
       <p>§ 295</p>
-      <p>Opatření k nápravě</p>
+      <p><strong>Opatření k nápravě</strong></p>
       <p>
         <strong>(1)</strong> Je-li to nezbytné k ochraně zákonem chráněného
         veřejného zájmu, stavební úřad může i bez provedené kontroly nařídit
@@ -149,11 +149,11 @@ document.addEventListener('DOMContentLoaded', () => {
         kontrolní prohlídky tím, že:
       </p>
       <p style="padding-left: 1.5em">
-        a) znemožňuje oprávněné úřední osobě nebo osobě jí přizvané vstup na
+        <strong>a)</strong> znemožňuje oprávněné úřední osobě nebo osobě jí přizvané vstup na
         svůj pozemek nebo stavbu,
       </p>
       <p style="padding-left: 1.5em">
-        b) na výzvu stavebního úřadu se nezúčastní kontrolní prohlídky, ač je k
+        <strong>b)</strong> na výzvu stavebního úřadu se nezúčastní kontrolní prohlídky, ač je k
         tomu podle tohoto zákona povinen.
       </p>
       <p>Klikni na křížek a <span class="sejmuti">Sejmi slumlorda!</span></p>
@@ -164,8 +164,8 @@ document.addEventListener('DOMContentLoaded', () => {
       <h3>❗majitel neprovedl zabezpečovací práce -> stavební úřad❗</h3>
       <p>§ 301</p>
       <p>
-        Pokud stavebník (majitel) neprovede nařízené nutné zabezpečovací práce
-        nebo je provede v rozporu s rozhodnutím, hrozí mu pokuta až do
+        Pokud stavebník (majitel) <strong>neprovede nařízené nutné zabezpečovací práce
+        nebo je provede v rozporu s rozhodnutím</strong>, hrozí mu pokuta až do
         <strong>1&nbsp;000&nbsp;000&nbsp;Kč.</strong>
       </p>
       <p>Klikni na křížek a <span class="sejmuti">Sejmi slumlorda!</span></p>
@@ -178,11 +178,11 @@ document.addEventListener('DOMContentLoaded', () => {
         vymáhá❗
       </h3>
       <p>§ 296</p>
-      <p>Provedení opatření k nápravě</p>
+      <p><strong>Provedení opatření k nápravě</strong></p>
       <p>
-        <strong>(1)</strong> Hrozí-li u provedení opatření k nápravě podle § 295 odst. 1 písm. c), d) nebo e) nebezpečí z prodlení, zajistí provedení nařízeného opatření k nápravě stavební úřad prostřednictvím osoby, která je podle jiného právního předpisu oprávněna k provedení nařízených prací; při stanovení této osoby se zákon o zadávání veřejných zakázek nepoužije. Této osobě může stavební úřad provedení opatření k nápravě nařídit rozhodnutím, které může být vydáno jako první úkon stavebního úřadu v řízení.
+        <strong>(1)</strong> Hrozí-li u provedení opatření k nápravě podle § 295 odst. 1 písm. c), d) nebo e) nebezpečí z prodlení, <strong>zajistí provedení nařízeného opatření k nápravě stavební úřad prostřednictvím osoby, která je podle jiného právního předpisu oprávněna k provedení nařízených prací</strong>; při stanovení této osoby se zákon o zadávání veřejných zakázek nepoužije. Této osobě může stavební úřad provedení opatření k nápravě nařídit rozhodnutím, které může být vydáno jako první úkon stavebního úřadu v řízení.
         </p>
-       <p> <strong>(2)</strong> Náklady na provedení opatření k nápravě je povinen uhradit vlastník stavby nebo pozemku, na němž se záměr nachází. Nedošlo-li mezi osobou, prostřednictvím které stavební úřad zajišťuje provedení nařízeného opatření k nápravě, a vlastníkem k dohodě o zaplacení, stavební úřad uhradí náklady na provedení opatření k nápravě a rozhodnutím uloží vlastníkovi povinnost náklady uhradit stavebnímu úřadu.</p>
+       <p> <strong>(2)</strong> Náklady na provedení opatření k nápravě je povinen uhradit vlastník stavby nebo pozemku, na němž se záměr nachází. Nedošlo-li mezi osobou, prostřednictvím které stavební úřad zajišťuje provedení nařízeného opatření k nápravě, a vlastníkem k dohodě o zaplacení, <strong>stavební úřad uhradí náklady na provedení opatření k nápravě a rozhodnutím uloží vlastníkovi povinnost náklady uhradit stavebnímu úřadu</strong>.</p>
 
        <p>Klikni na křížek a <span class="sejmuti">Sejmi slumlorda!</span></p>
       <span class="sejmuti-hlaska">Slumlorda to tentokrát stálo <strong>1&nbsp;500&nbsp;000&nbsp;Kč. 💸</strong></span>
